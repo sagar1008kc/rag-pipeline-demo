@@ -1,4 +1,4 @@
-# Course Guide
+# RAG Tutorials A-Z: Course Guide
 
 This course teaches RAG through one fictional high-security finance scenario:
 an internal assistant for Northline Trust Company.
