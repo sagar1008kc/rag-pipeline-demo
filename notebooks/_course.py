@@ -26,5 +26,5 @@ def llm(user: str, system: str | None = None, temperature: float = 0.0) -> str:
     return complete(user, system=system, temperature=temperature)
 
 
-print("course: Northline secure RAG tutorial")
+print("course: RAG Tutorials A-Z")
 print("llm   :", HAS_LLM, "| model:", MODEL)

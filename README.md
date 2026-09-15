@@ -1,8 +1,9 @@
-# Northline Trust — Secure RAG Tutorial
+# RAG Pipeline Tutorials A-Z
 
 Notebook course for building a production-style RAG pipeline over fictional
 internal finance knowledge: policy, PII, MNPI walls, stale documents, prompt
-injection, and role-based access control.
+injection, and role-based access control. The running scenario uses a
+fictional private bank named Northline Trust Company.
 
 There is no UI or web service. The whole course runs in Jupyter.
 
