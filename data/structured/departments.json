@@ -1,0 +1,30 @@
+{
+  "firm": "Northline Trust Company",
+  "note": "Fictional private bank used for the RAG tutorial.",
+  "departments": [
+    {
+      "id": "wealth",
+      "name": "Wealth advisory",
+      "default_role": "advisor",
+      "may_retrieve": ["public", "internal", "confidential"]
+    },
+    {
+      "id": "compliance",
+      "name": "Compliance",
+      "default_role": "compliance",
+      "may_retrieve": ["public", "internal", "confidential", "mnpi"]
+    },
+    {
+      "id": "security",
+      "name": "Information security",
+      "default_role": "security",
+      "may_retrieve": ["public", "internal", "confidential", "restricted"]
+    },
+    {
+      "id": "executive",
+      "name": "Executive office",
+      "default_role": "executive",
+      "may_retrieve": ["public", "internal", "confidential", "restricted", "mnpi"]
+    }
+  ]
+}

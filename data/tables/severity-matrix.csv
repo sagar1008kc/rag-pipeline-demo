@@ -1,0 +1,5 @@
+level,trigger,page,external_notice
+SEV-0,Confirmed export of MNPI or a production HSM secret,Immediate: CISO and Bank Duty Officer,Legal directs; no ad-hoc emails
+SEV-1,Confirmed Confidential PII (full TIN or full account) in an unsanctioned tool or ethical-wall breach,CISO on-call within 15 minutes,Privacy office within 1 hour
+SEV-2,Suspected mis-classification or assistant returned a Restricted chunk to an uncleared role,Security lead same business day,Internal only
+SEV-3,Policy question or training gap with no evidence of leakage,Ticket,No

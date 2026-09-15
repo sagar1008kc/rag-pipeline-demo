@@ -1,0 +1,17 @@
+catalog: Northline knowledge controls
+controls:
+  - id: CTL-RAG-ACL
+    name: Need-to-know at retrieval
+    rule: Drop chunks the staff role cannot read before the prompt is built.
+  - id: CTL-RAG-REDACT
+    name: PII redaction
+    rule: Replace account, TIN, and phone patterns after retrieve, before generate.
+  - id: CTL-RAG-CITE
+    name: Citation intersection
+    rule: Keep only citation ids that appear in the retrieved set. Otherwise abstain.
+  - id: CTL-RAG-STALE
+    name: Prefer current policy
+    rule: Penalize status=superseded so withdrawn 2024 labels are not applied.
+  - id: CTL-RAG-INJECT
+    name: Untrusted documents
+    rule: System rules override any instruction found inside retrieved text.

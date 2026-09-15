@@ -1,0 +1,147 @@
+# Catalog for every file under data/. Classification lives here so PDF/CSV/TSX
+# can carry the same ACL metadata as markdown.
+
+documents:
+  - path: policies/information-classification.md
+    doc_id: POL-CLASS-2026
+    title: Information Classification Standard
+    department: security
+    classification: internal
+    audience: employee
+    effective_date: 2026-03-01
+    status: current
+
+  - path: policies/pii-and-client-data.md
+    doc_id: POL-PII-2026
+    title: PII and Client Data Handling
+    department: compliance
+    classification: confidential
+    audience: advisor
+    effective_date: 2026-04-15
+    status: current
+
+  - path: policies/acceptable-use-ai.md
+    doc_id: POL-AI-USE-2026
+    title: Acceptable Use of Internal AI Assistants
+    department: security
+    classification: internal
+    audience: employee
+    effective_date: 2026-02-01
+    status: current
+
+  - path: policies/mnpi-ethical-wall.md
+    doc_id: POL-MNPI-WALL-2026
+    title: MNPI Ethical Wall
+    department: compliance
+    classification: mnpi
+    audience: compliance
+    effective_date: 2026-05-01
+    status: current
+
+  - path: policies/classification-withdrawn.md
+    doc_id: POL-CLASS-2024
+    title: Information Classification Standard (withdrawn)
+    department: security
+    classification: internal
+    audience: employee
+    effective_date: 2024-06-01
+    status: superseded
+
+  - path: runbooks/incident-response.pdf
+    doc_id: SEC-IR-2026
+    title: Security Incident Severity for Information Events
+    department: security
+    classification: internal
+    audience: employee
+    effective_date: 2026-01-20
+    status: current
+
+  - path: runbooks/privileged-access.pdf
+    doc_id: SEC-PRIV-ACCESS-2026
+    title: Privileged Access and Break-Glass
+    department: security
+    classification: restricted
+    audience: security
+    effective_date: 2026-02-12
+    status: current
+
+  - path: tables/severity-matrix.csv
+    doc_id: TBL-SEV-2026
+    title: Information-event severity matrix
+    department: security
+    classification: internal
+    audience: employee
+    effective_date: 2026-01-20
+    status: current
+
+  - path: tables/retention-schedule.csv
+    doc_id: TBL-RETENTION-2026
+    title: Records retention schedule
+    department: legal
+    classification: internal
+    audience: employee
+    effective_date: 2026-03-10
+    status: current
+
+  - path: tables/watch-book.csv
+    doc_id: TBL-WATCH-2026
+    title: Watch Book extract (synthetic)
+    department: compliance
+    classification: mnpi
+    audience: compliance
+    effective_date: 2026-05-01
+    status: current
+
+  - path: apps/ClientProfile.tsx
+    doc_id: APP-CLIENT-PROFILE
+    title: Client profile widget source
+    department: wealth
+    classification: confidential
+    audience: advisor
+    effective_date: 2026-06-01
+    status: current
+
+  - path: apps/BreakGlassPanel.tsx
+    doc_id: APP-BREAK-GLASS
+    title: Break-glass panel source
+    department: security
+    classification: restricted
+    audience: security
+    effective_date: 2026-02-12
+    status: current
+
+  - path: wiki/desk-faq.html
+    doc_id: WIKI-DESK-FAQ
+    title: Policy desk FAQ
+    department: operations
+    classification: internal
+    audience: employee
+    effective_date: 2026-04-01
+    status: current
+
+  - path: wiki/vendor-note.html
+    doc_id: WIKI-VENDOR-NOTE
+    title: Vendor onboarding note
+    department: operations
+    classification: internal
+    audience: employee
+    effective_date: 2026-03-18
+    status: current
+
+  - path: structured/departments.json
+    doc_id: ORG-DEPTS-2026
+    title: Department directory
+    department: hr
+    classification: internal
+    audience: employee
+    effective_date: 2026-01-05
+    status: current
+
+  - path: structured/control-catalog.yaml
+    doc_id: CTL-CATALOG-2026
+    title: Control catalog
+    department: security
+    classification: internal
+    audience: employee
+    effective_date: 2026-03-01
+    status: current

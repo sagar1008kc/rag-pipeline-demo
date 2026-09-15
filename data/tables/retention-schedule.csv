@@ -1,0 +1,6 @@
+record,retention,system_of_record
+Policy PDFs (current and superseded),7 years after withdrawal,Policy vault
+Assistant retrieval audit (role query hash chunk ids),7 years,Audit lake
+Redacted servicing transcripts,18 months,Contact center
+MNPI Watch Book,Life of wall plus 5 years,Compliance
+Knowledge assistant answers,Not a system of record — vault wins on conflict,Assistant is an index only
